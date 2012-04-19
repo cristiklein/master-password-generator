@@ -4,9 +4,11 @@ import math
 import random
 
 # Parse command line
-parser = argparse.ArgumentParser(description = 'Generate a random password from a wordlist')
-parser.add_argument('--file'    , default = 'words.txt', help='file to get wordlist from (default: words.txt)')
-parser.add_argument('--numWords', type = int, default = 5, help='number of words to generate (default: 5)')
+parser = argparse.ArgumentParser(
+	description = 'Generate a random password from a wordlist',
+	formatter_class = argparse.ArgumentDefaultsHelpFormatter)
+parser.add_argument('--file'    , default = 'words.txt', help='file to get wordlist from')
+parser.add_argument('--numWords', type = int, default = 5, help='number of words to generate')
 args = parser.parse_args()
 
 # Read wordlist
