@@ -9,4 +9,4 @@ Contents of repository:
 * masterPasswordMaker.py: the Python script itself
 * words.txt: processes word-list
 
-The motivation behind this script can be found on (my blog)[http://lovetohack.wordpress.com/2012/04/19/generating-a-master-password-in-your-native-language/].
+The motivation behind this script can be found on [my blog](http://lovetohack.wordpress.com/2012/04/19/generating-a-master-password-in-your-native-language/).
